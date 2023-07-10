@@ -1,0 +1,46 @@
+.searchContent{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    'a1 b1 c1 d1';
+    grid-gap: 25px;
+}
+.SearchP{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.photoSearch{
+    border-radius: 35px;
+}
+.inputSearch{
+    height: 35px;
+    width: 275px;
+    border: none;
+    transition: 3s;
+}
+.inputSearch:hover{
+    border: 1px solid ;
+}
+.buttonDelete{
+    border: none;
+    height: 35px;
+    transition: 1s;
+    width: 65px;
+}
+.buttonDelete:hover{
+    background-color: red;
+    color: white;
+}
+.buttonSearch:hover{
+    color: black;
+    background-color:yellow;
+    
+}
+.buttonSearch{
+    border: none;
+    height: 35px;
+    width: 65px;
+    margin: 25px 0px;
+    transition: 1s;
+}

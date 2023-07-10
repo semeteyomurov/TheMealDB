@@ -1,0 +1,60 @@
+footer{
+    margin-top: 50px;
+    background-color: #23180d;
+}
+
+.footerContainer{
+    width: 1100px;
+}
+
+.footerContent{
+    height: 100px;
+}
+.PhotoF{
+    background-size: contain;
+    background-repeat:no-repeat;
+    position: absolute;
+    top: 25px;
+}
+.footerPhoto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.One{
+    width: 225px;
+    height: 75px;
+    position: absolute;
+    left: 225px;
+    background-image: url(https://www.themealdb.com/images/logo-tcdb.png);
+}
+.Two{
+    position: absolute;
+    height: 75px;
+    width: 175px;
+    left: 475px;
+    background-image: url(https://www.themealdb.com/images/logo-tadb.png);
+}
+.Three{
+    position: absolute;
+    height: 75px;
+    width: 200px;
+    right: 225px;
+    background-image: url(https://www.themealdb.com/images/logo-tsdb.png);
+}
+.spanS{
+    position: absolute;
+    left: 15px;
+    top: 30px;
+}
+.footerUl{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 1px;
+    top: 30px;
+}
+li{
+    margin-left: 20px;
+}

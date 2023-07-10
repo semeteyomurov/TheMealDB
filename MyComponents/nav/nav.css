@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #2d2013;
+}
+.navContainer{
+    width: 1200px;
+    position: relative;
+}
+nav{
+    background-color: #23180d;
+}
+.navPhoto{
+    height: 50px;
+    width: 300px;
+    background-image: url(https://www.themealdb.com/images/logo-small.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15px;
+}
+.navContent{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navUlLi{
+    width: 575px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+    right: -1px;
+    top: 30px;
+}
+.btnNav{
+    height: 40px;
+    width: 75px;
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+li{
+    cursor: pointer;
+    font-size: 18px;
+}
+.navInput{
+    width: 130px;
+    height: 35px;
+}

@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+}
+.headerContainer{
+    width: 1200px;
+    text-align: center;
+}
+.headerContent{
+    display: flex;
+    padding-top: 50px;
+    height: 275px;
+}
+.headerPhoto{
+    height: 400px;
+    width: 400px;
+    background-image: url(https://www.themealdb.com/images/meal-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.headerP{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.headerButton{
+    width: 150px;
+    height: 35px;
+    background-color: rgba(253, 253, 58, 0.986);
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+}
+.borderBottom{
+    width: 90%;
+    border-bottom: 2px solid white;
+}
